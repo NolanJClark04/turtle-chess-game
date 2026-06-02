@@ -3,14 +3,14 @@ wn = turtle.Screen()
 wn.bgcolor("blue")
 board_builder = turtle.Turtle()
 board_builder.penup()
-coords = [-73.5,73.5]
+coords = [-73.5,73.5] 
 board_builder.right(90)
 board_builder.shape("square")
 board_builder.color("tan")
 board_builder.hideturtle()
 grid = [[],[],[],[],[],[],[],[]]
 
-#board builder code
+#board builder code xd
 
 for i in range(8):
     board_builder.teleport(coords[0],coords[1])
